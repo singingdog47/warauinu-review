@@ -16,6 +16,7 @@ interface Props {
 }
 
 const { frontmatter } = Astro.props;
+const pageUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : Astro.url.toString();
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
@@ -23,27 +24,61 @@ const articleSchema = {
   description: frontmatter.description,
   datePublished: frontmatter.published,
   dateModified: frontmatter.updated,
-  author: { '@type': 'Person', name: '当サイト運営者' },
+  mainEntityOfPage: pageUrl,
+  inLanguage: 'ja-JP',
+  author: { '@type': 'Person', name: '笑う犬' },
+  publisher: {
+    '@type': 'Organization',
+    name: '笑う犬の日々レビュー',
+    url: Astro.site?.toString(),
+  },
+  about: {
+    '@type': 'Product',
+    name: frontmatter.product,
+  },
+};
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'ホーム',
+      item: Astro.site?.toString(),
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: frontmatter.title,
+      item: pageUrl,
+    },
+  ],
 };
 ---
-<BaseLayout title={`${frontmatter.title}｜笑う犬の日々レビュー`} description={frontmatter.description}>
+<BaseLayout title={`${frontmatter.title}｜笑う犬の日々レビュー`} description={frontmatter.description} ogType="article">
   <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <article class="article">
+    <nav class="breadcrumbs" aria-label="パンくずリスト">
+      <a href="/">ホーム</a><span aria-hidden="true">/</span><span>{frontmatter.category}</span>
+    </nav>
     <header class="article-header">
-      <div class="eyebrow">{frontmatter.category} / 実購入レビュー</div>
+      <div class="eyebrow">{frontmatter.category} · 実購入レビュー</div>
       <h1>{frontmatter.title}</h1>
       <p class="article-deck">{frontmatter.description}</p>
       <div class="article-meta">
+        <span class="product-name">{frontmatter.product}</span>
         <span>購入：{frontmatter.purchased}</span>
         <span>使用期間：{frontmatter.usedFor}</span>
-        <span>更新：{frontmatter.updated}</span>
+        <span>更新：<time datetime={frontmatter.updated}>{frontmatter.updated}</time></span>
       </div>
     </header>
     <aside class="verdict" aria-label="先に結論">
       <strong>先に結論</strong>
       <p>{frontmatter.verdict}</p>
     </aside>
-    <div class="status-note">この記事は実際の購入履歴と使用者への聞き取りをもとに作成しています。メーカー公表値と個人の使用感は分けて記載しています。</div>
+    <div class="status-note">実際の購入履歴と使用経験をもとに作成しています。メーカー公表値と個人の使用感は分けて記載しています。</div>
     <div class="article-content"><slot /></div>
     <a class="back-link" href="/">← レビュー一覧へ戻る</a>
   </article>
