@@ -4,34 +4,55 @@ import '../styles/global.css';
 interface Props {
   title?: string;
   description?: string;
+  ogType?: 'website' | 'article';
 }
 
 const {
   title = '笑う犬の日々レビュー｜買ったものと試したことの記録',
   description = '映像の仕事をする会社員が、買ったもの、試したこと、お金のことを実体験から記録します。',
+  ogType = 'website',
 } = Astro.props;
+
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
+const siteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: '笑う犬の日々レビュー',
+  description: '映像の仕事をする会社員が、買ったものと試したことを実体験から記録するサイトです。',
+  url: Astro.site?.toString(),
+  inLanguage: 'ja-JP',
+};
 ---
 <!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#ffffff" />
     {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content="笑う犬の日々レビュー" />
+    <meta property="og:locale" content="ja_JP" />
     {canonical && <meta property="og:url" content={canonical} />}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(siteSchema)} />
     <title>{title}</title>
   </head>
   <body>
-    <p class="disclosure">当サイトはアフィリエイト広告を利用する予定です。現在の初期版には広告リンクを設置していません。</p>
     <header class="site-header">
       <nav class="nav shell" aria-label="メインナビゲーション">
-        <a class="brand" href="/" aria-label="笑う犬の日々レビュー トップへ">笑う犬の<span>日々レビュー</span></a>
+        <a class="brand" href="/" aria-label="笑う犬の日々レビュー トップへ">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-name">笑う犬の<b>日々レビュー</b></span>
+        </a>
         <div class="nav-links">
           <a href="/#reviews">レビュー</a>
           <a href="/about/">このサイトについて</a>
@@ -41,9 +62,15 @@ const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefin
     </header>
     <main class="site-main"><slot /></main>
     <footer class="site-footer">
-      <div class="shell">
-        <strong>笑う犬の日々レビュー</strong><br />
-        買ったもの。やってみたこと。お金のこと。実感のあることだけを書きます。<br />
+      <div class="shell site-footer-inner">
+        <div>
+          <strong>笑う犬の日々レビュー</strong>
+          <p>買ったもの。やってみたこと。お金のこと。<br />実感のあることだけを書きます。</p>
+        </div>
+        <div class="footer-links">
+          <a href="/about/">このサイトについて</a>
+          <a href="/policy/">運営方針・広告について</a>
+        </div>
         <small>© 2026 笑う犬の日々レビュー</small>
       </div>
     </footer>
