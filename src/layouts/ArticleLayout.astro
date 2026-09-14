@@ -1,0 +1,50 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description: string;
+    category: string;
+    product: string;
+    purchased: string;
+    usedFor: string;
+    verdict: string;
+    published: string;
+    updated: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: frontmatter.title,
+  description: frontmatter.description,
+  datePublished: frontmatter.published,
+  dateModified: frontmatter.updated,
+  author: { '@type': 'Person', name: '当サイト運営者' },
+};
+---
+<BaseLayout title={`${frontmatter.title}｜笑う犬の日々レビュー`} description={frontmatter.description}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <article class="article">
+    <header class="article-header">
+      <div class="eyebrow">{frontmatter.category} / 実購入レビュー</div>
+      <h1>{frontmatter.title}</h1>
+      <p class="article-deck">{frontmatter.description}</p>
+      <div class="article-meta">
+        <span>購入：{frontmatter.purchased}</span>
+        <span>使用期間：{frontmatter.usedFor}</span>
+        <span>更新：{frontmatter.updated}</span>
+      </div>
+    </header>
+    <aside class="verdict" aria-label="先に結論">
+      <strong>先に結論</strong>
+      <p>{frontmatter.verdict}</p>
+    </aside>
+    <div class="status-note">この記事は実際の購入履歴と使用者への聞き取りをもとに作成しています。メーカー公表値と個人の使用感は分けて記載しています。</div>
+    <div class="article-content"><slot /></div>
+    <a class="back-link" href="/">← レビュー一覧へ戻る</a>
+  </article>
+</BaseLayout>
