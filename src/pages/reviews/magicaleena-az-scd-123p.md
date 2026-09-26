@@ -8,7 +8,10 @@ purchased: 2025年7月
 usedFor: 約1年2か月
 verdict: 一度ですべてのゴミを吸い切るような強さは感じません。それでも圧倒的に軽く、スタンドへ戻すだけで充電できる。狭い家を10分弱で掃除する我が家では「ほぼ毎日使う掃除機」になりました。
 published: 2026-09-14
-updated: 2026-09-15
+updated: 2026-09-26
+hero: /images/reviews/magicaleena-az-scd-123p/hero.webp
+heroAlt: フローリングをマジカリーナで掃除している様子
+heroCaption: 狭い家を10分弱で掃除する我が家では、この軽さのおかげでほぼ毎日手に取れています。
 ---
 
 ## 吸引力だけなら、前のマキタの方が強かった
@@ -37,6 +40,11 @@ updated: 2026-09-15
 
 約1年使って残ったのは、そんな当たり前の実感でした。
 
+<figure class="review-photo">
+  <img src="/images/reviews/magicaleena-az-scd-123p/controls.webp" alt="スタンドへ立てかけたマジカリーナの本体と操作部" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>使い終わったら立てかけるだけ。充電を意識せず戻せることが、毎日の使いやすさにつながっています。</figcaption>
+</figure>
+
 ## 立てかけるだけの充電が地味に大きい
 
 以前の掃除機より、なんとなく使いやすい。その理由の一つが充電です。
@@ -49,6 +57,11 @@ updated: 2026-09-15
 
 
 我が家の使い方では、マジカリーナの軽さと電池持ちのバランスが合っていました。
+
+<figure class="review-photo">
+  <img src="/images/reviews/magicaleena-az-scd-123p/floor-head.webp" alt="実際に使用しているマジカリーナのヘッド部分" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>撮影用に新品を用意したわけではなく、いつも使っている状態です。実際、家の中には思った以上にホコリや髪の毛が落ちているんですよね。</figcaption>
+</figure>
 
 ## ゴミはすぐ溜まるが、捨てる操作は楽
 

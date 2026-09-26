@@ -12,18 +12,24 @@ interface Props {
     verdict: string;
     published: string;
     updated: string;
+    hero?: string;
+    heroAlt?: string;
+    heroCaption?: string;
   };
 }
 
 const { frontmatter } = Astro.props;
 const pageUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : Astro.url.toString();
+const formatDate = (value: string | Date) => value instanceof Date ? value.toISOString().slice(0, 10) : value;
+const publishedDate = formatDate(frontmatter.published);
+const updatedDate = formatDate(frontmatter.updated);
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: frontmatter.title,
   description: frontmatter.description,
-  datePublished: frontmatter.published,
-  dateModified: frontmatter.updated,
+  datePublished: publishedDate,
+  dateModified: updatedDate,
   mainEntityOfPage: pageUrl,
   inLanguage: 'ja-JP',
   author: { '@type': 'Person', name: '笑う犬' },
@@ -36,6 +42,7 @@ const articleSchema = {
     '@type': 'Product',
     name: frontmatter.product,
   },
+  ...(frontmatter.hero && Astro.site ? { image: new URL(frontmatter.hero, Astro.site).toString() } : {}),
 };
 const breadcrumbSchema = {
   '@context': 'https://schema.org',
@@ -56,7 +63,7 @@ const breadcrumbSchema = {
   ],
 };
 ---
-<BaseLayout title={`${frontmatter.title}｜笑う犬の日々レビュー`} description={frontmatter.description} ogType="article">
+<BaseLayout title={`${frontmatter.title}｜笑う犬の日々レビュー`} description={frontmatter.description} ogType="article" ogImage={frontmatter.hero}>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <article class="article">
@@ -71,9 +78,23 @@ const breadcrumbSchema = {
         <span class="product-name">{frontmatter.product}</span>
         <span>購入：{frontmatter.purchased}</span>
         <span>使用期間：{frontmatter.usedFor}</span>
-        <span>更新：<time datetime={frontmatter.updated}>{frontmatter.updated}</time></span>
+        <span>更新：<time datetime={updatedDate}>{updatedDate}</time></span>
       </div>
     </header>
+    {frontmatter.hero && (
+      <figure class="article-hero">
+        <img
+          src={frontmatter.hero}
+          alt={frontmatter.heroAlt ?? frontmatter.product}
+          width="1600"
+          height="1067"
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        />
+        {frontmatter.heroCaption && <figcaption>{frontmatter.heroCaption}</figcaption>}
+      </figure>
+    )}
     <aside class="verdict" aria-label="先に結論">
       <strong>先に結論</strong>
       <p>{frontmatter.verdict}</p>

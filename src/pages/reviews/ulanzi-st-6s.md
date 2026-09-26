@@ -8,7 +8,10 @@ purchased: 2026年8月19日・1,340円
 usedFor: 約1か月
 verdict: Sony α7 IIIの上にiPhone 13 miniを固定し、さらにマイクを取り付けた仕事の記録撮影で問題なく使えました。安価で小さく、スマートフォン撮影を一度試してみたい人にはおすすめです！
 published: 2026-09-19
-updated: 2026-09-19
+updated: 2026-09-26
+hero: /images/reviews/ulanzi-st-6s/hero.webp
+heroAlt: Sony α7 IIIにUlanzi ST-6SとiPhone、マイクを取り付けた撮影セット
+heroCaption: Sony α7 IIIの上にiPhone 13 miniとマイクを載せた実際の撮影セットです。
 ---
 
 ## 先に結論
@@ -30,6 +33,11 @@ Sony α7 IIIの上にiPhone 13 miniを載せ、カメラとスマートフォン
 実際の撮影では、ホルダーにiPhoneを固定し、さらにマイクを取り付けて使いました。
 
 機材を組み合わせると少し複雑に見えますが、それぞれの役割は単純です。カメラの上へスマートフォンを載せ、その周辺に必要な機材を追加する。そのための土台として、ST-6Sがちょうどよく機能してくれました。
+
+<figure class="review-photo">
+  <img src="/images/reviews/ulanzi-st-6s/camera-rig.webp" alt="Sony α7 IIIの上にUlanzi ST-6SでiPhoneを横向きに固定した様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>カメラの上にスマートフォンを横向きで固定。現場でも取り付けに迷うことはありませんでした。</figcaption>
+</figure>
 
 ## スマートフォンの取り付けは簡単
 
@@ -53,6 +61,11 @@ ST-6Sには、その面倒がほとんどありませんでした。
 
 ただし、走りながらの撮影や、強い振動が続く環境での安定性までは確認していません。今回分かったのは、三脚やカメラへ取り付けて画角を固定する記録撮影なら、安心して使えたということです。
 
+<figure class="review-photo">
+  <img src="/images/reviews/ulanzi-st-6s/mount.webp" alt="Ulanzi ST-6Sのコールドシューと1/4インチネジ穴" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>コールドシューとネジ穴があるため、スマートフォンだけでなくマイクもまとめて載せられます。</figcaption>
+</figure>
+
 ## コールドシューがあると、マイクまでまとめやすい
 
 ST-6Sを選ぶ理由の一つが、2つのコールドシューと1/4インチのネジ穴です。
@@ -72,6 +85,11 @@ ST-6Sを選ぶ理由の一つが、2つのコールドシューと1/4インチ�
 サイズと重さは、持ち運びの負担にならない程度です。撮影機材は一つひとつが軽くても、数が増えると鞄がすぐ重くなるんですよね。その点、ST-6Sは「念のため持っていこう」と思える大きさです。
 
 仕事用の機材バッグへ入れても、ストレスを感じません。
+
+<figure class="review-photo">
+  <img src="/images/reviews/ulanzi-st-6s/travel-tripod.webp" alt="Ulanzi ST-6Sを小型のトラベル三脚と組み合わせた様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>小型三脚との相性もよく、記録撮影のセットをコンパクトにまとめられます。</figcaption>
+</figure>
 
 ## 映像の仕事でも実際に使えた
 

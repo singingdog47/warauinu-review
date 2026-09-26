@@ -8,7 +8,10 @@ purchased: 2025年7月8日
 usedFor: 約1年2か月
 verdict: 14インチのMacBook Proは余裕をもって入り、書類、水筒、PCアクセサリー、軽い上着まで収納できます。重いと持ち手が肩に食い込みますが、PCを安心して持ち運べる丈夫なトートを探している人には、私はおすすめできます！
 published: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-26
+hero: /images/reviews/incase-city-market-tote/hero.webp
+heroAlt: 黒いIncase City Market Toteの全体
+heroCaption: 黒いコーデュラナイロンは、仕事にも出張にも使いやすい落ち着いた見た目です。
 ---
 
 ## プライムデー先行セール初日に購入
@@ -32,6 +35,11 @@ updated: 2026-09-15
 普段からMacBook Proを持ち歩いているので、見た目だけでなく、バッグの堅牢性やPCの保護性能も必要でした。
 
 容量にも余裕がありそうだったため、「これならPC以外の荷物もまとめて入れられる」と思い、City Market Toteを選びました。
+
+<figure class="review-photo">
+  <img src="/images/reviews/incase-city-market-tote/laptop.webp" alt="Incase City Market ToteのPC収納部へ13インチMacBook Airを入れた様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>写真では13インチMacBook Airを入れています。余裕ですっぽり収まり、会社で使う14インチMacBook Proも問題なく入ります。</figcaption>
+</figure>
 
 ## 14インチMacBook Proは余裕で入る
 
@@ -112,6 +120,11 @@ PCや書類、移動中に使うものをまとめて入れられ、必要なと
 約1年使い、少し乱暴に扱われる場面もあったのに、まったく傷んだ様子がない。ここは、さすがIncaseだと感じます！
 
 購入時に期待していた堅牢性には、きちんと応えてくれました。
+
+<figure class="review-photo">
+  <img src="/images/reviews/incase-city-market-tote/logo.webp" alt="City Market Toteのコーデュラナイロン生地とIncaseロゴ" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>黒いコーデュラナイロンは頑丈で、約1年使い、空港で預けても目立った傷みはありません。</figcaption>
+</figure>
 
 ## 大人っぽさとカジュアルさの中間
 

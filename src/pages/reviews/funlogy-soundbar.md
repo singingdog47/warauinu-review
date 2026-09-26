@@ -8,7 +8,10 @@ purchased: 2025年11月24日
 usedFor: 約10か月
 verdict: 私はテレビ内蔵スピーカーの音に我慢できず、映画をもう少し迫力のある音で見たくて購入しました。モニタースピーカーほどのクリアさはありませんが、音響機器と配線が減り、今ではテレビの一部のように使っています。
 published: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-26
+hero: /images/reviews/funlogy-soundbar/hero.webp
+heroAlt: 32インチのソニーBRAVIA前に置いたFUNLOGY Soundbar
+heroCaption: 10年以上使っている32インチのソニーBRAVIAと組み合わせています。サウンドバーはテレビの一部のようになじみました。
 ---
 
 ## テレビ内蔵スピーカーの音が、どうしても好きになれなかった
@@ -17,7 +20,7 @@ FUNLOGY Soundbarを購入した一番の理由は、もともとのテレビの�
 
 ニュースや普通のテレビ番組を見るだけなら我慢できなくもありません。しかし、映画を見ると音の薄さが気になり、映像に対して迫力が足りませんでした。
 
-テレビはリビングに置いている37〜40インチ程度のモデルで、部屋の広さは約10畳です。
+テレビはリビングに置いている32インチのソニーBRAVIAで、10年以上使っています。部屋の広さは約10畳です。
 
 映像は十分見られるのに、音だけが物足りない。映画の世界へ入り込みたい場面で、テレビ本体の軽い音が聞こえてくると、どうしても気持ちが離れてしまうんですよね。
 
@@ -40,6 +43,11 @@ FUNLOGY Soundbarを購入する前は、音楽用のモニタースピーカー�
 FUNLOGY Soundbarへ替えてからは、テレビの前に細長いスピーカーが1本あるだけです。
 
 モニタースピーカーほど音を細かく聴き分ける用途には向きませんが、毎日使うテレビの音を改善しながら、機器を減らせた。この変化はかなり大きかったです。
+
+<figure class="review-photo">
+  <img src="/images/reviews/funlogy-soundbar/connection.webp" alt="テレビ背面へ3.5mmステレオミニジャックを接続した様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>模様替えをしても迷いにくいよう、3.5mmケーブルを挿すだけの接続にしています。</figcaption>
+</figure>
 
 ## あえて3.5mmのステレオミニジャックで接続
 
@@ -77,6 +85,11 @@ FUNLOGY Soundbarは、HDMI ARC、光デジタル、Bluetooth、AUXなどの接�
 
 映画を見たときの満足感を考えると、この低音の強さは長所と短所の両方を持っているのだと思います。
 
+<figure class="review-photo">
+  <img src="/images/reviews/funlogy-soundbar/front.webp" alt="テレビ前に設置したFUNLOGY Soundbarの正面" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>うっすら積もったホコリはご愛嬌。特別な機材というより、日常のテレビの一部になっています。</figcaption>
+</figure>
+
 ## 基本は電源を入れたまま。テレビの一部になった
 
 普段はFUNLOGY Soundbarの電源を入れたまま、テレビにもつないだままにしています。
@@ -91,11 +104,16 @@ FUNLOGY Soundbarは、HDMI ARC、光デジタル、Bluetooth、AUXなどの接�
 
 でも、家族が存在を意識せず、これまでどおりテレビを使えている。それは共有する家電として、むしろ成功なのかもしれません！
 
-## 37〜40インチのテレビには、少し大きく見える
+<figure class="review-photo">
+  <img src="/images/reviews/funlogy-soundbar/top.webp" alt="32インチテレビとFUNLOGY Soundbarを上から見たサイズ比較" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>確認したところ、テレビは32インチでした。横幅はやや大きく見えますが、視聴の邪魔にはなっていません。</figcaption>
+</figure>
+
+## 32インチのテレビには、少し大きく見える
 
 本体サイズは、幅約61cm、奥行き約10cm、高さ約6.2cmです。
 
-我が家の37〜40インチ程度のテレビと組み合わせると、サウンドバーが若干大きく見えます。ただ、テレビの前へ置いても圧迫感はなく、視聴の邪魔にもなっていません。
+我が家の32インチテレビと組み合わせると、サウンドバーが若干大きく見えます。ただ、テレビの前へ置いても圧迫感はなく、視聴の邪魔にもなっていません。
 
 黒い本体なのでテレビとの異質感も少なく、質感も悪くありません。
 

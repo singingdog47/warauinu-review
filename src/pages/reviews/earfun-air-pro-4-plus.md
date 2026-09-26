@@ -8,7 +8,10 @@ purchased: 2026年2月28日・11,490円
 usedFor: 約7か月
 verdict: 音楽でも手持ちのイヤホンと遜色なく、新宿駅のような騒がしい場所でも音へ集中できます。ただし、誤動作を避けるためタッチ操作と装着検出はオフにしました。
 published: 2026-09-23
-updated: 2026-09-23
+updated: 2026-09-26
+hero: /images/reviews/earfun-air-pro-4-plus/hero.webp
+heroAlt: 充電ケースを開けたEarFun Air Pro 4+
+heroCaption: ケースもイヤホン本体も軽く、2時間ほど着けても耳が痛くなりませんでした。
 ---
 
 ## 先に結論
@@ -38,6 +41,11 @@ EarFun Air Pro 4+は、ハイブリッド・デュアルドライバーやaptX L
 そのため、対応コーデックやハイレゾ性能を細かく比較したレビューではありません。Air Pro 4+の音質を限界まで引き出しているわけでもないと思います。
 
 それでも、人の声は聞き取りやすく、音がこもっている印象もありません。電車や街中で動画を見るという日常用途では、十分に満足できる音です。
+
+<figure class="review-photo">
+  <img src="/images/reviews/earfun-air-pro-4-plus/case-and-earbuds.webp" alt="EarFun Air Pro 4+の充電ケースと左右のイヤホン" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>音楽を再生しても、普段使ってきたイヤホンと遜色なく聴けます。私にとって、この「遜色ない」はかなりよい評価です。</figcaption>
+</figure>
 
 ## 音楽を聴いても、ほかのイヤホンと遜色ない
 
@@ -93,6 +101,11 @@ YouTubeのトークを聞き取りやすくするだけでなく、騒がしい�
 
 通常の電車移動や街中で頻繁に音が途切れることはありませんが、線路のすぐ近くを歩くことが多い人には、少し気になる現象かもしれません。
 
+<figure class="review-photo">
+  <img src="/images/reviews/earfun-air-pro-4-plus/earbud.webp" alt="EarFun Air Pro 4+のイヤホン本体とイヤーチップ" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>本体の装着感はよい一方、タッチ操作と装着検出は不安定だったため、私はアプリでオフにしました。</figcaption>
+</figure>
+
 ## タッチ操作と装着検出はオフにした
 
 一番の不満は、使い始めに再生が勝手に止まることがあった点です。
@@ -138,6 +151,11 @@ AirPodsほど自然に端末を切り替えられる印象がなく、接続ト�
 周囲の音は比較的自然に聞こえ、不自然に増幅されているような違和感はあまりありません。
 
 ただ、私は外音取り込みをほとんど使いません。人と会話するときはイヤホンを外すことが多いため、この機能を細かく評価できるほど使い込んではいません。
+
+<figure class="review-photo">
+  <img src="/images/reviews/earfun-air-pro-4-plus/case.webp" alt="閉じた状態のEarFun Air Pro 4+充電ケース" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>ケースは軽く、持ち歩きの負担になりません。蓋は一般的なヒンジ式です。</figcaption>
+</figure>
 
 ## 電池持ちは十分。ケースも軽い
 

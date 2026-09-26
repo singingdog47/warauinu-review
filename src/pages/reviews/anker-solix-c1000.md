@@ -8,7 +8,10 @@ purchased: 2025年2月1日・96,900円
 usedFor: 約1年7か月
 verdict: 非常時にはまだ使っていませんが、普段からスマートフォンを充電しながら、停電への備えを維持できる安心感があります。
 published: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-26
+hero: /images/reviews/anker-solix-c1000/hero.webp
+heroAlt: Anker Solix C1000で3台のスマートフォンを充電している様子
+heroCaption: 普段はスマートフォンなどを充電しながら、非常時にすぐ使える状態を保っています。
 ---
 
 ## 先に結論
@@ -30,6 +33,11 @@ updated: 2026-09-21
 そして購入後、定期的な充電や動作確認をしているのは私です。
 
 妻が欲しいと言ったのに、こういうメンテナンスは結局こちらの担当になるんですよね。しかも、ときどき「ちょっと邪魔」と言われます。あるあるでしょうか……。
+
+<figure class="review-photo">
+  <img src="/images/reviews/anker-solix-c1000/front.webp" alt="リビングに置いたAnker Solix C1000の正面" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>普段はリビングに置いています。10kgの米袋に近い感覚で、気軽に持ち歩く軽さではありません。</figcaption>
+</figure>
 
 ## 米袋をイメージすると分かりやすい重さ
 
@@ -61,6 +69,11 @@ Ankerの取扱説明書では、定期的に残量を確認し、少なくとも
 
 公式では、アプリから超急速充電モードを設定した場合、最短58分で満充電になると案内されています。ただ、私はアプリを使用していないため、通常の充電だけで運用しています。
 
+<figure class="review-photo">
+  <img src="/images/reviews/anker-solix-c1000/rear.webp" alt="Anker Solix C1000の背面と収納した充電ケーブル" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>背面の充電口とケーブル。端子が多く、普段の充電から非常時まで用途を広げやすい構成です。</figcaption>
+</figure>
+
 ## USB-Aは挿し直しが必要になる
 
 日常的に使っていて少し面倒なのが、USB-A端子です。
@@ -70,6 +83,11 @@ USB-Aケーブルを挿したままにしておくと、次に使うとき、そ
 USB Type-Cでは挿すだけで反応しているので、普段使いではType-Cの方が快適です。
 
 これが製品の仕様なのか、接続しているケーブルや機器との相性なのかまでは分かりません。ただ、私の環境では毎回のように起きるので、気になる点ではあります。
+
+<figure class="review-photo">
+  <img src="/images/reviews/anker-solix-c1000/light.webp" alt="Anker Solix C1000の大型ライトを点灯した様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>前面にはライトもあります。停電時やキャンプで、周囲を照らす用途にも使えそうです。</figcaption>
+</figure>
 
 ## ソーラーパネルは、立ててつなぐだけ
 

@@ -8,7 +8,10 @@ purchased: 2025年7月
 usedFor: 約1年2か月
 verdict: 私は毎日本を読むわけではありません。それでも、軽くて電池を気にせず、出張鞄へ気軽に入れられるところに価値を感じています。雑誌を読むときや軽快に操作したいときは、スマートフォンやタブレットを使っています。
 published: 2026-09-14
-updated: 2026-09-15
+updated: 2026-09-26
+hero: /images/reviews/kindle-2024/hero.webp
+heroAlt: 片手で持った通常版Kindle 2024
+heroCaption: あらためて手に取ると、この軽さが通常版Kindleのいちばんの魅力だと感じます。
 ---
 
 ## 「買い替え」ではなく、読書専用機を試してみたかった
@@ -53,6 +56,11 @@ updated: 2026-09-15
 
 この気軽な読み方と、通常版Kindleはとても相性がいいと感じています。
 
+<figure class="review-photo">
+  <img src="/images/reviews/kindle-2024/reading.webp" alt="Kindleの画面に縦書きの本文を表示して片手で読んでいる様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>E Inkは文章が読みやすく、通知に邪魔されないところも気に入っています。</figcaption>
+</figure>
+
 ## デジタル機器なのに、少しデトックス感がある
 
 E Inkは紙に近い見え方で、長く読んでもスマートフォンほど「画面を見続けている」という感覚がありません。
@@ -76,6 +84,11 @@ E Inkは紙に近い見え方で、長く読んでもスマートフォンほど
 高価なタブレットほど神経質にならず、鞄へ気軽に放り込める。多少雑に扱っても、それほど気になりません。
 
 「雑に扱える」というのも、毎日持ち歩く道具として立派な性能だと思います！
+
+<figure class="review-photo">
+  <img src="/images/reviews/kindle-2024/band.webp" alt="Kindle背面に固定用バンドを装着して手を通した様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>固定用バンドは安心感が増す一方、軽さを損ないます。私は結局、何も付けずに使う方が合いました。</figcaption>
+</figure>
 
 ## 固定用バンドも買ったが、私には必要なかった
 
@@ -102,6 +115,11 @@ Kindleをしっかり持つために、本体の背面へ取り付ける固定�
 久しぶりに本を読みたくなったのに、まず充電から始めなければならない。それだけで少し気持ちが冷めてしまいますよね。
 
 その心配がほとんどない安心感は、毎日充電するスマートフォンとはかなり違います。
+
+<figure class="review-photo">
+  <img src="/images/reviews/kindle-2024/buttons.webp" alt="通常版Kindleの底面にある充電端子と電源ボタン" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>操作はスマートフォンほど軽快ではありません。待てる範囲ですが、せっちな人は上位モデルも検討した方がよさそうです。</figcaption>
+</figure>
 
 ## 不満は、動作が緩慢なこと
 

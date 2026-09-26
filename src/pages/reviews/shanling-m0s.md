@@ -8,7 +8,10 @@ purchased: 2025年11月24日・12,539円
 usedFor: 約10か月
 verdict: 以前から持っていた音楽を、小さな端末へまとめて持ち歩きたい人にはおすすめできます！ とにかく小さくて軽い一方、タッチ操作や曲の検索には不満があります。
 published: 2026-09-20
-updated: 2026-09-20
+updated: 2026-09-26
+hero: /images/reviews/shanling-m0s/hero.webp
+heroAlt: 手のひらに載せたSHANLING M0S
+heroCaption: 手のひらに収まるほど小さく、持ち歩く負担はほとんど感じません。
 ---
 
 ## 先に結論
@@ -61,6 +64,11 @@ M0SにはCirrus LogicのCS43131 DACが搭載され、3.5mmのイヤホン出力�
 
 高音質を突き詰めるためというより、昔の音楽を気軽に持ち歩きながら、きちんとした音で楽しむための端末です。
 
+<figure class="review-photo">
+  <img src="/images/reviews/shanling-m0s/folder-ui.webp" alt="SHANLING M0Sの小さな画面にフォルダを3件ほど表示した様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>画面が小さいため、フォルダ表示は一度に3件ほど。小ささの代わりに、一覧性はかなり犠牲になっています。</figcaption>
+</figure>
+
 ## UIとタッチ操作には、かなり不満がある
 
 小ささはM0Sの最大の長所ですが、その小ささは操作性にも影響しています。
@@ -87,6 +95,11 @@ M0SにはCirrus LogicのCS43131 DACが搭載され、3.5mmのイヤホン出力�
 
 たまに曲名が文字化けすることもあります。ただし、すべての音源で起きるわけではなく、全体としてはおおむね問題なく表示できています。
 
+<figure class="review-photo">
+  <img src="/images/reviews/shanling-m0s/earphones.webp" alt="SHANLING M0Sと有線カナル型イヤホン" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>有線イヤホンと組み合わせ、microSDカードへ入れた昔の音源を聴いています。</figcaption>
+</figure>
+
 ## microSDカードでの音源管理は問題なし
 
 音源はmicroSDカードへ入れて管理しています。現在使っているのは、キオクシア製のmicroSDカードです。
@@ -100,6 +113,11 @@ M0SにはCirrus LogicのCS43131 DACが搭載され、3.5mmのイヤホン出力�
 安価な中国製のカードでは、M0Sが正常に読み込まないことがあります。せっかく音源を移しても認識されなければ意味がありませんし、データの破損も心配です。
 
 私はキオクシアを使っていますが、SanDiskなども含め、実績のあるメーカーの正規品を選ぶことをおすすめします！
+
+<figure class="review-photo">
+  <img src="/images/reviews/shanling-m0s/rear.webp" alt="SHANLING M0Sの背面と技適表示" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>本体は小さくても、作りが極端に安っぽいとは感じませんでした。</figcaption>
+</figure>
 
 ## 電池持ちに不満はない
 

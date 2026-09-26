@@ -8,7 +8,10 @@ purchased: 2025年1月
 usedFor: 約1年8か月
 verdict: 私が気に入っているのは、派手な美容機能より、軽くて風が強く、毎日使っても手首が疲れにくいところです。家族3人で約1年8か月使っていますが、今のところ不具合もありません。
 published: 2026-09-14
-updated: 2026-09-15
+updated: 2026-09-26
+hero: /images/reviews/tescom-td760a/hero.webp
+heroAlt: 片手で持ったテスコムのヘアドライヤーTD760A
+heroCaption: ノズルが短く、片手で扱いやすい形です。すっきりしたデザインも気に入っています。
 ---
 
 ## 家族全員が使うから、軽さは小さくない
@@ -22,6 +25,11 @@ updated: 2026-09-15
 ノズルが短くコンパクトで、手首が疲れにくい。家族で順番に使っても、扱いづらさを感じません。
 
 毎日使っていると、こういう小さな違いが大事なんですよね。
+
+<figure class="review-photo">
+  <img src="/images/reviews/tescom-td760a/modes.webp" alt="TD760Aのモード切り替えボタンと送風口" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>モードによって表示色が変わるため、いまの設定を見分けやすくなっています。</figcaption>
+</figure>
 
 ## 風はかなり強く、温度もちょうどいい
 
@@ -43,6 +51,11 @@ updated: 2026-09-15
 
 静音性を最優先する人は、一度店頭などで確認した方がよいかもしれません。
 
+<figure class="review-photo">
+  <img src="/images/reviews/tescom-td760a/used-logo.webp" alt="長期間の使用でロゴが薄くなったTD760A本体" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>家族3人で使い、ロゴが薄くなるほど出番があります。それでも不具合はありません。</figcaption>
+</figure>
+
 ## 約1年8か月、家族3人で使って不具合なし
 
 購入から約1年8か月、家族3人で使ってきましたが、現時点で不具合はありません。
@@ -52,6 +65,11 @@ updated: 2026-09-15
 本体は一般的な折り畳み式ではありませんが、ノズルが短いため、思ったより収納しやすいです。
 
 欲を言えば、コードの付け根が柔軟に曲がる構造なら、さらにしまいやすかったと思います。今のところ、具体的な不満はそれくらいです。
+
+<figure class="review-photo">
+  <img src="/images/reviews/tescom-td760a/easy-plug.webp" alt="抜き差ししやすいレバー付きのTD760A電源プラグ" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>電源プラグには抜き差しを助けるレバーがあります。毎日触れる部分なので、こういう小さな工夫は便利です。</figcaption>
+</figure>
 
 ## メーカー公表値と実際の印象
 

@@ -225,6 +225,16 @@ p { overflow-wrap: anywhere; }
   border-radius: 26px;
   background: var(--subtle);
   transition: transform 180ms ease, box-shadow 180ms ease;
+  overflow: hidden;
+}
+
+.review-card-image {
+  width: calc(100% + 58px);
+  max-width: none;
+  margin: -29px -29px 24px;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  background: #ececee;
 }
 
 .review-card:hover {
@@ -305,6 +315,26 @@ p { overflow-wrap: anywhere; }
   width: 100%;
   color: #515154;
   font-weight: 600;
+}
+
+.article-hero,
+.review-photo {
+  margin: 36px 0;
+}
+
+.article-hero img,
+.review-photo img {
+  width: 100%;
+  border-radius: 18px;
+  background: var(--subtle);
+}
+
+.article-hero figcaption,
+.review-photo figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.65;
 }
 
 .verdict {
@@ -473,6 +503,10 @@ p { overflow-wrap: anywhere; }
   .article-content { font-size: 1rem; line-height: 1.95; }
   .article-content h2 { margin-top: 2.8em; font-size: 1.45rem; }
   .verdict { padding: 22px; }
+  .article-hero,
+  .review-photo { margin: 28px 0; }
+  .article-hero img,
+  .review-photo img { border-radius: 14px; }
 
   .article-content table,
   .article-content tbody,

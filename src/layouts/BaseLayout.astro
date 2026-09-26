@@ -5,15 +5,18 @@ interface Props {
   title?: string;
   description?: string;
   ogType?: 'website' | 'article';
+  ogImage?: string;
 }
 
 const {
   title = '笑う犬の日々レビュー｜買ったものと試したことの記録',
   description = '映像の仕事をする会社員が、買ったもの、試したこと、お金のことを実体験から記録します。',
   ogType = 'website',
+  ogImage,
 } = Astro.props;
 
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site) : undefined;
+const absoluteOgImage = ogImage && Astro.site ? new URL(ogImage, Astro.site).toString() : ogImage;
 const siteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -41,9 +44,12 @@ const siteSchema = {
     <meta property="og:site_name" content="笑う犬の日々レビュー" />
     <meta property="og:locale" content="ja_JP" />
     {canonical && <meta property="og:url" content={canonical} />}
-    <meta name="twitter:card" content="summary" />
+    {absoluteOgImage && <meta property="og:image" content={absoluteOgImage} />}
+    {absoluteOgImage && <meta property="og:image:alt" content={title} />}
+    <meta name="twitter:card" content={absoluteOgImage ? 'summary_large_image' : 'summary'} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
+    {absoluteOgImage && <meta name="twitter:image" content={absoluteOgImage} />}
     <script is:inline type="application/ld+json" set:html={JSON.stringify(siteSchema)} />
     <title>{title}</title>
   </head>

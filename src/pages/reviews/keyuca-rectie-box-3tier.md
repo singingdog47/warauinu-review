@@ -8,7 +8,10 @@ purchased: 2025年ごろ
 usedFor: 約1年
 verdict: 我が家の狭い洗面所では、この薄さが購入の決め手になりました。2台を壁際に並べ、家族の下着、タオル、パジャマなどを収納しています。子どもも自分で下着を取り出して着替えています。
 published: 2026-09-15
-updated: 2026-09-15
+updated: 2026-09-26
+hero: /images/reviews/keyuca-rectie-box-3tier/hero.webp
+heroAlt: 洗面所に2台並べたKEYUCA rectie ボックス3段
+heroCaption: 洗面所の壁際に2台並べています。生活感も含めて、実際の収まり方はこんな雰囲気です。
 ---
 
 ## ゴミ箱ではなく、洗面所の衣類収納として購入
@@ -18,6 +21,11 @@ rectie ボックス3段は、分別用のゴミ箱として紹介されること
 洗面所と風呂場の前に2台並べ、それぞれの下着やタオル類、パジャマなどを収納しています。
 
 お風呂へ入る前後に必要なものが、その場にまとまっている。これはやはり便利なんですよね。わざわざ別の部屋へ下着やパジャマを取りに行く必要がなくなり、入浴から着替えまでが洗面所で完結します。
+
+<figure class="review-photo">
+  <img src="/images/reviews/keyuca-rectie-box-3tier/slim-depth.webp" alt="壁際に置いたrectie ボックス3段を横から見た様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>横から見ると薄さがよく分かります。狭い洗面スペースでも通路を圧迫しにくいです。</figcaption>
+</figure>
 
 ## 決め手は、幅19.5cmという薄さ
 
@@ -38,6 +46,11 @@ rectie ボックス3段は、分別用のゴミ箱として紹介されること
 大きな引き出しへまとめて入れると、中で衣類が混ざってしまいがちです。rectieは1段ずつ独立しているので、用途や人ごとに収納場所を決められます。
 
 2台は同時に購入したと思いますが、結果として我が家の使い方には2台でちょうどよかったです。1台だけではなく、最初から並べたことで、家族分の衣類を無理なく分けられました。
+
+<figure class="review-photo">
+  <img src="/images/reviews/keyuca-rectie-box-3tier/in-use.webp" alt="rectie ボックス3段のフラップを開けて衣類を収納している様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>下着やタオル、パジャマを実際に入れています。フラップは軽く、子どもでも開け閉めできます。</figcaption>
+</figure>
 
 ## フラップは軽く、衣類も取り出しやすい
 
