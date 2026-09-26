@@ -115,8 +115,8 @@ M0SにはCirrus LogicのCS43131 DACが搭載され、3.5mmのイヤホン出力�
 私はキオクシアを使っていますが、SanDiskなども含め、実績のあるメーカーの正規品を選ぶことをおすすめします！
 
 <figure class="review-photo">
-  <img src="/images/reviews/shanling-m0s/rear.webp" alt="SHANLING M0Sの背面と技適表示" width="1600" height="1067" loading="lazy" decoding="async">
-  <figcaption>本体は小さくても、作りが極端に安っぽいとは感じませんでした。</figcaption>
+  <img src="/images/reviews/shanling-m0s/rear.webp" alt="SHANLING M0Sの金属製背面とHi-Res Audioのロゴ" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>正しいM0Sの背面写真へ差し替えました。小さな本体ですが、金属の質感があり、作りが極端に安っぽいとは感じません。</figcaption>
 </figure>
 
 ## 電池持ちに不満はない

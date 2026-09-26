@@ -59,6 +59,11 @@ ST-6Sには、その面倒がほとんどありませんでした。
 
 その使い方では、角度調整で困ることもありません。
 
+<figure class="review-photo">
+  <img src="/images/reviews/ulanzi-st-6s/portrait.webp" alt="Ulanzi ST-6Sを回転させてiPhone 13 miniを縦位置で固定した様子" width="1600" height="1067" loading="lazy" decoding="async">
+  <figcaption>ホルダーを回転させれば、スマートフォンを縦位置でも固定できます。縦動画やSNS向けの記録撮影にも使いやすい形です。</figcaption>
+</figure>
+
 ただし、走りながらの撮影や、強い振動が続く環境での安定性までは確認していません。今回分かったのは、三脚やカメラへ取り付けて画角を固定する記録撮影なら、安心して使えたということです。
 
 <figure class="review-photo">
