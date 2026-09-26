@@ -20,6 +20,49 @@ interface Props {
 
 const { frontmatter } = Astro.props;
 const pageUrl = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : Astro.url.toString();
+const relatedByPath: Record<string, Array<{ href: string; category: string; title: string }>> = {
+  '/reviews/kindle-2024/': [
+    { href: '/reviews/shanling-m0s/', category: '音響・デジタル', title: 'SHANLING M0Sで昔の音楽を持ち歩く' },
+    { href: '/reviews/incase-city-market-tote/', category: '仕事の道具', title: 'PCと一緒に出張へ持ち出すCity Market Tote' },
+  ],
+  '/reviews/magicaleena-az-scd-123p/': [
+    { href: '/reviews/keyuca-rectie-box-3tier/', category: '収納・生活用品', title: '狭い洗面所に置いたrectie ボックス3段' },
+    { href: '/reviews/tescom-td760a/', category: '身支度・家電', title: '家族3人で使うヘアドライヤーTD760A' },
+  ],
+  '/reviews/tescom-td760a/': [
+    { href: '/reviews/magicaleena-az-scd-123p/', category: '掃除・家電', title: '毎日手に取れる軽さのマジカリーナ' },
+    { href: '/reviews/keyuca-rectie-box-3tier/', category: '収納・生活用品', title: '洗面所で使うrectie ボックス3段' },
+  ],
+  '/reviews/keyuca-rectie-box-3tier/': [
+    { href: '/reviews/magicaleena-az-scd-123p/', category: '掃除・家電', title: '軽さを優先したマジカリーナ' },
+    { href: '/reviews/tescom-td760a/', category: '身支度・家電', title: '家族で使うヘアドライヤーTD760A' },
+  ],
+  '/reviews/funlogy-soundbar/': [
+    { href: '/reviews/shanling-m0s/', category: '音響・デジタル', title: 'SHANLING M0Sで手持ちの音源を聴く' },
+    { href: '/reviews/earfun-air-pro-4-plus/', category: '音響・デジタル', title: 'EarFun Air Pro 4+のノイキャンを試す' },
+  ],
+  '/reviews/incase-city-market-tote/': [
+    { href: '/reviews/ulanzi-st-6s/', category: '仕事の道具', title: '映像の仕事で使ったUlanzi ST-6S' },
+    { href: '/reviews/kindle-2024/', category: '読書・デジタル', title: '出張へ持っていく通常版Kindle' },
+  ],
+  '/reviews/ulanzi-st-6s/': [
+    { href: '/reviews/incase-city-market-tote/', category: '仕事の道具', title: '撮影や出張にも使うCity Market Tote' },
+    { href: '/reviews/funlogy-soundbar/', category: '音響・家電', title: 'テレビの音を整えたFUNLOGY Soundbar' },
+  ],
+  '/reviews/shanling-m0s/': [
+    { href: '/reviews/earfun-air-pro-4-plus/', category: '音響・デジタル', title: 'EarFun Air Pro 4+を約7か月使った感想' },
+    { href: '/reviews/funlogy-soundbar/', category: '音響・家電', title: '映画の音を豊かにするFUNLOGY Soundbar' },
+  ],
+  '/reviews/anker-solix-c1000/': [
+    { href: '/reviews/ulanzi-st-6s/', category: '仕事の道具', title: '記録撮影で使ったUlanzi ST-6S' },
+    { href: '/reviews/kindle-2024/', category: '読書・デジタル', title: '軽さを優先した通常版Kindle' },
+  ],
+  '/reviews/earfun-air-pro-4-plus/': [
+    { href: '/reviews/shanling-m0s/', category: '音響・デジタル', title: '有線で昔の音源を聴くSHANLING M0S' },
+    { href: '/reviews/funlogy-soundbar/', category: '音響・家電', title: 'テレビへ追加したFUNLOGY Soundbar' },
+  ],
+};
+const relatedReviews = relatedByPath[Astro.url.pathname] ?? [];
 const formatDate = (value: string | Date) => value instanceof Date ? value.toISOString().slice(0, 10) : value;
 const publishedDate = formatDate(frontmatter.published);
 const updatedDate = formatDate(frontmatter.updated);
@@ -101,6 +144,20 @@ const breadcrumbSchema = {
     </aside>
     <div class="status-note">実際の購入履歴と使用経験をもとに作成しています。メーカー公表値と個人の使用感は分けて記載しています。</div>
     <div class="article-content"><slot /></div>
+    {relatedReviews.length > 0 && (
+      <aside class="related-reviews" aria-labelledby="related-title">
+        <h2 id="related-title">あわせて読めるレビュー</h2>
+        <div class="related-review-grid">
+          {relatedReviews.map((review) => (
+            <a href={review.href}>
+              <span>{review.category}</span>
+              <strong>{review.title}</strong>
+              <small>レビューを読む →</small>
+            </a>
+          ))}
+        </div>
+      </aside>
+    )}
     <a class="back-link" href="/">← レビュー一覧へ戻る</a>
   </article>
 </BaseLayout>

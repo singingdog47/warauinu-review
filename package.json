@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "verify": "node scripts/verify-site.mjs",
+    "build": "npm run verify && astro check && astro build",
     "preview": "astro preview"
   },
   "dependencies": {
